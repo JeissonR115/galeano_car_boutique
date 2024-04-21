@@ -1,8 +1,12 @@
+
 import { renderizarHead } from "/src/head.js";
-import { renderizarMenu } from "/src/header.js";
+import { renderizarMenu, renderizarLogo } from "/src/header.js";
 
-renderizarHead()
+document.addEventListener("DOMContentLoaded", () => {
+    const logo = document.querySelector('.logo');
+    const nav = document.querySelector(".nav")
+    renderizarHead()
+    nav.appendChild(renderizarMenu());
+    logo.appendChild(renderizarLogo());
+});
 
-const nav = document.querySelector(".nav")
-const menu = renderizarMenu()
-nav.appendChild(menu);

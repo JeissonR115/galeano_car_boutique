@@ -103,12 +103,9 @@ export function renderizarMenu(menuItems = defaultMenuItems) {
     return ul
 }
 export function renderizarLogo() {
-    // Crear el contenedor del logo
-    const logoContainer = document.createElement('div');
-    logoContainer.classList.add('logo');
-
     // Crear el enlace del logo
     const logoLink = document.createElement('a');
+    logoLink.classList.add('logo__link');
     logoLink.setAttribute('href', '/index.html');
 
     // Crear el contenedor de la imagen
@@ -117,7 +114,7 @@ export function renderizarLogo() {
 
     // Crear la imagen del logo
     const logoImg = document.createElement('img');
-    logoImg.classList.add('logo_img');
+    logoImg.classList.add('logo__img');
     logoImg.setAttribute('src', '/media/img/logo/logo--1.png');
     logoImg.setAttribute('alt', 'logo Galeano Car Boutique');
 
@@ -127,10 +124,6 @@ export function renderizarLogo() {
     // Añadir el contenedor de la imagen al enlace del logo
     logoLink.appendChild(imgContainer);
 
-    // Añadir el enlace del logo al contenedor del logo
-    logoContainer.appendChild(logoLink);
-
-    // Añadir el contenedor del logo al cuerpo del documento
-   return logoContainer
+   return logoLink
 }
 
