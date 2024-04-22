@@ -8,25 +8,25 @@ const defaultMenuItems = [
     },
     {
         class: 'nosotros',
-        href: './pages/nosotros.html',
+        href: './nosotros.html',
         icon: 'users',
         name: 'Nosotros',
         submenu: [
             {
                 class: 'mission',
-                href: './pages/nosotros.html#mission',
+                href: './nosotros.html#mission',
                 icon: 'compass',
                 name: 'misión'
             },
             {
                 class: 'vision',
-                href: './pages/nosotros.html#vision',
+                href: './nosotros.html#vision',
                 icon: 'glasses',
                 name: 'vision'
             },
             {
                 class: 'values',
-                href: './pages/nosotros.html#values',
+                href: './nosotros.html#values',
                 icon: 'puzzle-piece',
                 name: 'valores'
             },
@@ -34,13 +34,13 @@ const defaultMenuItems = [
     },
     {
         class: 'ingresa',
-        href: './pages/ingresa.html',
+        href: './ingresa.html',
         icon: 'sign-in-alt',
         name: 'Ingresa'
     },
     {
         class: 'constactanos',
-        href: './pages/contactanos.html',
+        href: './contactanos.html',
         icon: 'envelope',
         name: 'Contáctanos'
     }
