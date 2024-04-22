@@ -23,7 +23,7 @@ export function renderizarHead() {
     head.appendChild(crearMetaElemento('viewport', 'width=device-width, initial-scale=1.0'));
 
     // Favicon
-    head.appendChild(crearLinkElemento('shortcut icon', './media/img/logo/icon.png', 'image/x-icon'));
+    head.appendChild(crearLinkElemento('shortcut icon', './media/img/logo/icon.ico', 'image/x-icon'));
 
     // Estilos
     const estilos = [
