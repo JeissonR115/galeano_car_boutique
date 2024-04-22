@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector(".nav");
     const footer = document.querySelector(".footer");
     renderizarHead()
-    nav.appendChild(renderizarMenu());
-    logo.appendChild(renderizarLogo());
-    footer.appendChild(renderizarFooter());
+    if(nav)nav.appendChild(renderizarMenu());
+    if(logo)logo.appendChild(renderizarLogo());
+    if(footer)footer.appendChild(renderizarFooter());
 });
 
