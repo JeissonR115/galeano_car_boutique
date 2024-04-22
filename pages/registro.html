@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="/styles/form.css">
 </head>
 
@@ -14,12 +14,12 @@
     </header>
     <main>
         <section class="form__container">
-            <h2 class="form__title">Contáctanos</h2>
-            <form class="form form--contact" method="post">
+            <h2 class="form__title">Registro</h2>
+            <form class="form form--signup" method="post">
                 <div class="form__group">
-                    <label for="name" class="form__label">Nombre</label>
-                    <input type="text" id="name" name="name" class="form__input"
-                        placeholder="Ingresa tu nombre" required>
+                    <label for="username" class="form__label">Nombre de usuario</label>
+                    <input type="text" id="username" name="username" class="form__input"
+                        placeholder="Ingresa tu nombre de usuario" required>
                 </div>
                 <div class="form__group">
                     <label for="email" class="form__label">Correo electrónico</label>
@@ -27,11 +27,12 @@
                         placeholder="Ingresa tu correo electrónico" required>
                 </div>
                 <div class="form__group">
-                    <label for="message" class="form__label">Mensaje</label>
-                    <textarea id="message" name="message" class="form__textarea"
-                        placeholder="Escribe tu mensaje aquí" required></textarea>
+                    <label for="password" class="form__label">Contraseña</label>
+                    <input type="password" id="password" name="password" class="form__input" pattern=".{5,}"
+                        placeholder="Ingresa tu contraseña" required>
                 </div>
-                <input type="submit" value="Enviar mensaje" class="form__submit">
+                <input type="submit" value="Registrarse" class="form__submit">
+                <span>¿Ya tienes cuenta? <a href="/pages/ingresa.html" class="form__forgot-password">Inicia Sesión</a></span>
             </form>
         </section>
     </main>
