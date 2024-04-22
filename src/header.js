@@ -95,7 +95,7 @@ export function renderizarLogo() {
     // Crear la imagen del logo
     const logoImg = document.createElement('img');
     logoImg.classList.add('logo__img');
-    logoImg.setAttribute('src', '/media/img/logo/logo--1.png');
+    logoImg.setAttribute('src', '../media/img/logo/logo--1.png');
     logoImg.setAttribute('alt', 'logo Galeano Car Boutique');
 
     // Añadir la imagen al contenedor de la imagen
