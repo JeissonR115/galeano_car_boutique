@@ -105,6 +105,7 @@ br{
   flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
+  flex-wrap: wrap;
 }
 .footer-redes{
   display: flex;
