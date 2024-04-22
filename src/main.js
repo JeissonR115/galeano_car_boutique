@@ -1,6 +1,6 @@
 
-import { renderizarHead } from "./src/head.js";
-import { renderizarMenu, renderizarLogo } from "./src/header.js";
+import { renderizarHead } from "./head.js";
+import { renderizarMenu, renderizarLogo } from "./header.js";
 import { renderizarFooter } from "./footer.js";
 document.addEventListener("DOMContentLoaded", () => {
     const logo = document.querySelector('.logo');
