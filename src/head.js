@@ -27,8 +27,8 @@ export function renderizarHead() {
 
     // Estilos
     const estilos = [
-        '../styles/styles.css',
-        '../styles/menu.css'
+        './styles/styles.css',
+        './styles/menu.css'
     ];
 
     estilos.forEach(estilo => {
