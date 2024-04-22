@@ -99,7 +99,7 @@ br{
   width: 10px;
 }
 /* footer */
-footer {
+.footer-container {
   padding: 40px 10px;
   display: flex;
   flex-direction: row;
