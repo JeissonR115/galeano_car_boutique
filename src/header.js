@@ -13,16 +13,22 @@ const defaultMenuItems = [
         name: 'Nosotros',
         submenu: [
             {
-                class: 'nosotros',
-                href: '/pages/nosotros.html',
-                icon: 'users',
-                name: 'Nosotros'
+                class: 'mission',
+                href: '/pages/nosotros.html#mission',
+                icon: 'compass',
+                name: 'misión'
             },
             {
-                class: 'nosotros',
-                href: '/pages/nosotros.html',
-                icon: 'users',
-                name: 'Nosotros'
+                class: 'vision',
+                href: '/pages/nosotros.html#vision',
+                icon: 'glasses',
+                name: 'vision'
+            },
+            {
+                class: 'values',
+                href: '/pages/nosotros.html#values',
+                icon: 'puzzle-piece',
+                name: 'valores'
             },
         ]
     },
@@ -60,7 +66,7 @@ export function renderizarMenu(menuItems = defaultMenuItems) {
 
         const span = document.createElement('span');
         span.classList.add('item__name');
-        span.textContent = item.name;
+        span.textContent = " " + item.name;
 
         a.appendChild(icon);
         a.appendChild(span);

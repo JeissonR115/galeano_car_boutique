@@ -5,13 +5,20 @@
 }
 
 .welcome {
-    padding: 100px 15%;
+    padding: 0 15% 50px;
 }
 
-.welcome_title {
-    padding: 50px 0;
+.welcome__title {
+    padding: 40px 0;
 }
-
+.welcome__p {
+    padding: 10px 0;
+    text-align: center;
+}
+.welcome__p a {
+    font-size: 1.8rem;
+    color: var(--color-title-2);
+}
 .servicios{
     padding: 100px 5%;
     display: flex;

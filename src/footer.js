@@ -1,13 +1,12 @@
 const defaultRedes = [
-    { url: '#', icono: 'facebook-f' },
-    { url: '#', icono: 'twitter' },
-    { url: '#', icono: 'instagram' },
-    { url: '#', icono: 'linkedin-in' }
+    { url: 'https://www.facebook.com/Galeanopolarizados/', icono: 'facebook-f' },
+    { url: 'https://wa.me/message/SP7WYJRNCDCZH1', icono: 'whatsapp' },
+    { url: 'https://www.instagram.com/Galeano_carboutique', icono: 'instagram' },
 ];
 const defaultInfoContacto = [
-    { label: 'Dirección', valor: 'Calle Principal, Ciudad, País' },
-    { label: 'Teléfono', valor: '+123456789' },
-    { label: 'Correo electrónico', valor: 'info@example.com' }
+    { label: 'Dirección', valor: 'carrera 4 #32-50 B, porvenir, Cali' },
+    { label: 'Teléfono', valor: '+57 3116433268' },
+    { label: 'Correo electrónico', valor: 'Galeano_carboutique@gamil.com' }
 ];
 
 
@@ -52,6 +51,7 @@ function renderizarRedesSociales(redesSociales = defaultRedes) {
         const listItem = document.createElement('li');
         const link = document.createElement('a');
         link.setAttribute('href', redSocial.url);
+        link.setAttribute('target', '_blank');
         const icon = document.createElement('i');
         icon.classList.add('fab');
         icon.classList.add(`fa-${redSocial.icono}`);
