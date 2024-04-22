@@ -2,31 +2,31 @@
 const defaultMenuItems = [
     {
         class: 'index',
-        href: '/index.html',
+        href: './index.html',
         icon: 'home',
         name: 'Inicio'
     },
     {
         class: 'nosotros',
-        href: '/pages/nosotros.html',
+        href: './pages/nosotros.html',
         icon: 'users',
         name: 'Nosotros',
         submenu: [
             {
                 class: 'mission',
-                href: '/pages/nosotros.html#mission',
+                href: './pages/nosotros.html#mission',
                 icon: 'compass',
                 name: 'misión'
             },
             {
                 class: 'vision',
-                href: '/pages/nosotros.html#vision',
+                href: './pages/nosotros.html#vision',
                 icon: 'glasses',
                 name: 'vision'
             },
             {
                 class: 'values',
-                href: '/pages/nosotros.html#values',
+                href: './pages/nosotros.html#values',
                 icon: 'puzzle-piece',
                 name: 'valores'
             },
@@ -34,13 +34,13 @@ const defaultMenuItems = [
     },
     {
         class: 'ingresa',
-        href: '/pages/ingresa.html',
+        href: './pages/ingresa.html',
         icon: 'sign-in-alt',
         name: 'Ingresa'
     },
     {
         class: 'constactanos',
-        href: '/pages/contactanos.html',
+        href: './pages/contactanos.html',
         icon: 'envelope',
         name: 'Contáctanos'
     }
@@ -86,7 +86,7 @@ export function renderizarLogo() {
     // Crear el enlace del logo
     const logoLink = document.createElement('a');
     logoLink.classList.add('logo__link');
-    logoLink.setAttribute('href', '/index.html');
+    logoLink.setAttribute('href', './index.html');
 
     // Crear el contenedor de la imagen
     const imgContainer = document.createElement('div');
