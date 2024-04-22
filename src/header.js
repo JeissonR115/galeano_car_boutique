@@ -24,32 +24,6 @@ const defaultMenuItems = [
                 icon: 'users',
                 name: 'Nosotros'
             },
-            {
-                class: 'nosotros',
-                href: '/pages/nosotros.html',
-                icon: 'users',
-                name: 'Nosotros',
-                submenu: [
-                    {
-                        class: 'nosotros',
-                        href: '/pages/nosotros.html',
-                        icon: 'users',
-                        name: 'Nosotros'
-                    },
-                    {
-                        class: 'nosotros',
-                        href: '/pages/nosotros.html',
-                        icon: 'users',
-                        name: 'Nosotros'
-                    },
-                    {
-                        class: 'nosotros',
-                        href: '/pages/nosotros.html',
-                        icon: 'users',
-                        name: 'Nosotros'
-                    }
-                ]
-            }
         ]
     },
     {
