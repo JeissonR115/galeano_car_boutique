@@ -5,7 +5,8 @@
 }
 
 .module{
-    width: calc(30% - 10px);
+    box-shadow: 0 0 15px 5px white;
+    width: calc(20% - 10px);
     aspect-ratio: 1 / 1;
     min-width: 250px;
     overflow: hidden;
