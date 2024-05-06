@@ -53,25 +53,25 @@ export const menu = {
     },
     {
         class: 'nosotros',
-        href: './nosotros.html',
+        href: './nosotros2.html',
         icon: 'users',
         name: 'Nosotros',
         submenu: [
             {
                 class: 'mission',
-                href: './nosotros.html#mission',
+                href: './nosotros2.html#mission',
                 icon: 'compass',
                 name: 'misión'
             },
             {
                 class: 'vision',
-                href: './nosotros.html#vision',
+                href: './nosotros2.html#vision',
                 icon: 'glasses',
                 name: 'vision'
             },
             {
                 class: 'values',
-                href: './nosotros.html#values',
+                href: './nosotros2.html#values',
                 icon: 'puzzle-piece',
                 name: 'valores'
             },
