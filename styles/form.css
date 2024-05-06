@@ -37,14 +37,17 @@ body{
 }
 
 .form__submit{
+    padding: 8px;
+    text-align: center;
     font-size: var(--font-size-ml);
     background-color: var(--color-title);
     color: var(--color-main-text);
-    margin:  20px 0;
     border: none;
     transition: all 0.3s ease;
 }
+
 .form__submit:hover{
     background-color: var(--color-title-2);
     transform: scale(0.95);
+    color: black;
 }

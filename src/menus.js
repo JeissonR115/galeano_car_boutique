@@ -45,11 +45,44 @@ export const menu = {
             name: 'Contáctanos'
         }
     ],
-    module:[    {
+    modulo:[    {
         class: 'index',
-        href: './index.html',
+        href: './modulos.html',
         icon: 'home',
-        name: 'Inicio'
-    },],
+        name: 'Modulos'
+    },
+    {
+        class: 'nosotros',
+        href: './nosotros.html',
+        icon: 'users',
+        name: 'Nosotros',
+        submenu: [
+            {
+                class: 'mission',
+                href: './nosotros.html#mission',
+                icon: 'compass',
+                name: 'misión'
+            },
+            {
+                class: 'vision',
+                href: './nosotros.html#vision',
+                icon: 'glasses',
+                name: 'vision'
+            },
+            {
+                class: 'values',
+                href: './nosotros.html#values',
+                icon: 'puzzle-piece',
+                name: 'valores'
+            },
+        ]
+    },
+    {
+        class: 'salir',
+        href: './ingresa.html',
+        icon: 'sign-in-alt',
+        name: 'salir'
+    },
+    ],
 
 }
