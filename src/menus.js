@@ -16,13 +16,73 @@ export const menu = {
                     class: 'mission',
                     href: './nosotros.html#mission',
                     icon: 'compass',
-                    name: 'misión'
+                    name: 'misión',
+                    submenu: [
+                        {
+                            class: 'mission',
+                            href: './nosotros2.html#mission',
+                            icon: 'compass',
+                            name: 'misión'
+                        },
+                        {
+                            class: 'vision',
+                            href: './nosotros2.html#vision',
+                            icon: 'glasses',
+                            name: 'vision'
+                        },
+                        {
+                            class: 'values',
+                            href: './nosotros2.html#values',
+                            icon: 'puzzle-piece',
+                            name: 'valores'
+                        },
+                    ]
                 },
                 {
                     class: 'vision',
                     href: './nosotros.html#vision',
                     icon: 'glasses',
-                    name: 'vision'
+                    name: 'vision',
+                    submenu:[
+                        {
+                            class: 'mission',
+                            href: './nosotros.html#mission',
+                            icon: 'compass',
+                            name: 'misión',
+                            submenu: [
+                                {
+                                    class: 'mission',
+                                    href: './nosotros2.html#mission',
+                                    icon: 'compass',
+                                    name: 'misión'
+                                },
+                                {
+                                    class: 'vision',
+                                    href: './nosotros2.html#vision',
+                                    icon: 'glasses',
+                                    name: 'vision'
+                                },
+                                {
+                                    class: 'values',
+                                    href: './nosotros2.html#values',
+                                    icon: 'puzzle-piece',
+                                    name: 'valores'
+                                },
+                            ]
+                        },
+                        {
+                            class: 'vision',
+                            href: './nosotros.html#vision',
+                            icon: 'glasses',
+                            name: 'vision'
+                        },
+                        {
+                            class: 'values',
+                            href: './nosotros.html#values',
+                            icon: 'puzzle-piece',
+                            name: 'valores'
+                        },
+                    ]
                 },
                 {
                     class: 'values',
@@ -37,6 +97,7 @@ export const menu = {
             href: './ingresa.html',
             icon: 'sign-in-alt',
             name: 'Ingresa'
+            
         },
         {
             class: 'constactanos',

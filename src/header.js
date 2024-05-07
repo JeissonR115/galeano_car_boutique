@@ -1,8 +1,9 @@
 
-export function renderizarMenu(menuItems = defaultMenuItems) {
+export function renderizarMenu(menuItems = defaultMenuItems,submenu = false) {
     
     const ul = document.createElement('ul');
-    ul.classList.add('nav__list');
+    ul.classList.add("nav__list");
+    if (submenu) ul.classList.add("sub-nav__list");
     menuItems.forEach(item => {
         const li = document.createElement('li');
         li.classList.add('list__item');
@@ -25,7 +26,7 @@ export function renderizarMenu(menuItems = defaultMenuItems) {
         li.appendChild(a);
 
         if (item.submenu) {
-            const submenu = renderizarMenu(item.submenu);
+            const submenu = renderizarMenu(item.submenu,true);
             li.appendChild(submenu)
         }
 
